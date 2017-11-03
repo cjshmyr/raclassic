@@ -135,7 +135,7 @@ BarrelExplode:
 		Size: 2
 		Delay: 5
 
-ATMine:
+AVMine:
 	Warhead@1Dam: SpreadDamage
 		Spread: 256
 		Damage: 400
@@ -149,7 +149,7 @@ ATMine:
 		InvalidTargets: Structure, Wall, Trees
 
 APMine:
-	Inherits: ATMine
+	Inherits: AVMine
 	Warhead@1Dam: SpreadDamage
 		DamageTypes: Prone50Percent, TriggerProne, SmallExplosionDeath
 	Warhead@2Eff: CreateEffect

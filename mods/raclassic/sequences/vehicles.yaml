@@ -215,6 +215,18 @@ mnly:
 		UseClassicFacingFudge: True
 	icon: mnlyicon
 
+mnly.ap:
+	idle: mnly
+		Facings: 32
+		UseClassicFacingFudge: True
+	icon: mnlyicon
+
+mnly.av:
+	idle: mnly
+		Facings: 32
+		UseClassicFacingFudge: True
+	icon: mnlyicon
+
 mrj:
 	idle:
 		Facings: 32

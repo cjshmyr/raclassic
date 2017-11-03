@@ -903,7 +903,7 @@
 		CrushClasses: mine
 		DetonateClasses: mine
 		AvoidFriendly: true
-		BlockFriendly: false
+		BlockFriendly: true
 	Health:
 		HP: 100
 		NotifyAppliedDamage: false
@@ -924,6 +924,27 @@
 	HitShape:
 	EditorTilesetFilter:
 		Categories: System
+
+^Minelayer:
+	Inherits: ^Tank
+	Valued:
+		Cost: 800
+	Tooltip:
+		Name: Minelayer
+	Health:
+		HP: 100
+	Armor:
+		Type: Heavy
+	Mobile:
+		Speed: 128
+		Crushes: wall, mine, crate, infantry
+	RevealsShroud:
+		Range: 5c0
+	AmmoPool:
+		Ammo: 5
+		RearmSound: minelay1.aud
+	Explodes:
+		Weapon: UnitExplodeSmall
 
 ^DisabledOverlay:
 	GrantConditionOnDisabled@IDISABLE:
