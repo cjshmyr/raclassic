@@ -106,7 +106,7 @@ BuildingExplode:
 
 CivBuildingExplosion:
 	Inherits: BuildingExplode
-	Warhead@1Dam: SpreadDamage # Used to panic civilians which are emitted from a killed CivBuilding
+	Warhead@1Dam: SpreadDamage
 		Spread: 64
 		Damage: 1
 		Delay: 1

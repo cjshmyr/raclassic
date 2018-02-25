@@ -13,6 +13,7 @@ set TEMPLATE_DIR=%CD%
 if not exist %ENGINE_DIRECTORY%\OpenRA.Game.exe goto noengine
 
 cd %ENGINE_DIRECTORY%
+echo OpenRA.Game.exe Game.Mod=%MOD_ID% Engine.LaunchPath="%TEMPLATE_LAUNCHER%" "Engine.ModSearchPaths=%MOD_SEARCH_PATHS%"  "%*"
 OpenRA.Game.exe Game.Mod=%MOD_ID% Engine.LaunchPath="%TEMPLATE_LAUNCHER%" "Engine.ModSearchPaths=%MOD_SEARCH_PATHS%"  "%*"
 set ERROR=%errorlevel%
 cd %TEMPLATE_DIR%

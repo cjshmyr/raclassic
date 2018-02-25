@@ -196,7 +196,7 @@ World:
 		ClassName: 8
 		Factions: allies
 		BaseActor: mcv
-		SupportActors: e1, 1tnk, 2tnk, apc, e3, jeep, arty, 2tnk, 2tnk, e3, 1tnk, 2tnk 
+		SupportActors: e1, 1tnk, 2tnk, apc, e3, jeep, arty, 2tnk, 2tnk, e3, 1tnk, 2tnk
 		InnerSupportRadius: 3
 		OuterSupportRadius: 5
 	MPStartUnits@8_soviet:

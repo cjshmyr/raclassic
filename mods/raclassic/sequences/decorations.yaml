@@ -718,7 +718,6 @@ barl:
 brl3:
 	idle:
 
-# Interior Terrain
 boxes01:
 	idle: boxes01.int
 		AddExtension: false
@@ -755,7 +754,6 @@ boxes09:
 	idle: boxes09.int
 		AddExtension: false
 
-# Desert Terrain Expansion
 rock1:
 	idle: rock1.des
 		AddExtension: false
